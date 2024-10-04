@@ -1,0 +1,67 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "Electronics",
+            "categoryPath": "Path Electronics",
+            "products": [
+                {
+                    "id": 1,
+                    "name": "Smartphone",
+                    "description": "Latest generation smartphone",
+                    "price": 999.99,
+                    "available": true
+                },
+                {
+                    "id": 2,
+                    "name": "Laptop",
+                    "description": "Gaming laptop",
+                    "price": 4999.99,
+                    "available": true
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Home",
+            "categoryPath": "Path Home",
+            "products": [
+                {
+                    "id": 3,
+                    "name": "Chair",
+                    "description": "Ergonomic chair",
+                    "price": 199.99,
+                    "available": true
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Clothing",
+            "categoryPath": "Path Clothing",
+            "products": [
+                {
+                    "id": 4,
+                    "name": "T-shirt",
+                    "description": "100% cotton T-shirt",
+                    "price": 29.99,
+                    "available": true
+                },
+                {
+                    "id": 5,
+                    "name": "Jeans",
+                    "description": "Comfortable denim jeans",
+                    "price": 49.99,
+                    "available": true
+                },
+                {
+                    "id": 6,
+                    "name": "Sneakers",
+                    "description": "Sporty sneakers for everyday use",
+                    "price": 79.99,
+                    "available": true
+                }
+            ]
+        }
+    ]
+}
