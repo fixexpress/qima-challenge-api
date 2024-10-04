@@ -1,6 +1,7 @@
 package com.qima.challenge.controller;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -52,4 +53,9 @@ public class ProductController {
         productService.deleteProduct(id);
         return ResponseEntity.noContent().build();
     }
+    
+    @GetMapping("/{id}")
+    public Optional<Product> getProduct(@PathVariable Long id) {
+        return productService.getProduct(id);
+    }    
 }

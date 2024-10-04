@@ -2,6 +2,7 @@ package com.qima.challenge.service;
 
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.stereotype.Service;
 
@@ -40,4 +41,9 @@ public class ProductService {
     public void deleteProduct(Long id) {
         productRepository.deleteById(id);
     }
+    
+    public Optional<Product> getProduct(Long id) {
+    	return productRepository.findById(id);
+    }
+    
 }
